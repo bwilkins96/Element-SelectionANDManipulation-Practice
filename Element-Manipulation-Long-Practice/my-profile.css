@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(90deg ,aquamarine, aqua);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#myName {
+    color: rgb(200,50,75);
+}
+
+.my-details {
+    border: 2px solid indianred;
+    list-style:none;
+    width: fit-content;
+    padding-left: 0;
+    transition: 0.5s;
+}
+
+.my-details:hover {
+    border-width: 5px;
+}
+
+.details {
+    padding: 8px 10px;
+}
+
+.details:hover {
+    color: rgb(200,50,75);
+}
+
+.profPic {
+    width: 250px;
+    height: auto;
+    transition: 1s;
+}
+
+.profPic:hover {
+    width: 500px;
+}
